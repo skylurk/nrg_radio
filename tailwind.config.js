@@ -14,6 +14,12 @@ module.exports = {
         'imageTwo' : "url('/splitT.jpg')",
         'imageThree' : "url('/webby.png')",
       }),
+      cursor: {
+        default: 'url(/cursor.png), default',
+        defaultOne: 'url(/curs.png), default',
+        defaultTwo: 'url(/cur.png), default',
+        defaultThree: 'url(/pointer.png), default',
+      }
     },
   },
 };
