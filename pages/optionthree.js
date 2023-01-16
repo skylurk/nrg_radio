@@ -19,7 +19,7 @@ const OptionThree = () => {
                 {/* <h4 className='text-lg font-bold mb-4'>NON-STOP HIT MUSIC</h4> */}
                 <h5 className='text-4xl font-medium mb-8 mt-24'>SELECT A COUNTRY</h5>
 
-                <button className='hover:bg-yellow-400 hover:border-2 hover:bg-transparent border-2 border-transparent hover:border-green-500 w-3/4 bg-[#DD0E34] py-4 mx-4 mb-2 rounded-lg shadow-lg text-2xl font-bold relative'>KENYA
+                <button className= ' hover:bg-yellow-400 hover:border-2 hover:bg-transparent border-2 border-transparent hover:border-green-500 w-3/4 bg-[#DD0E34] py-4 mx-4 mb-2 rounded-lg shadow-lg text-2xl font-bold relative'>KENYA
                 </button>
                 <button className=' w-3/4 py-4 mx-4 rounded-lg shadow-lg text-2xl border-2 border-green-500 font-bold hover:bg-[#DD0E34] hover:border-transparent'>UGANDA</button>
             </div>
