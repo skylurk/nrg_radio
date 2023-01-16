@@ -12,8 +12,8 @@ const OptionOne = () => {
             <h4 className='text-lg font-bold mb-4'>NON-STOP HIT MUSIC</h4>
             <h5 className='text-4xl font-extrabold mb-5'>SELECT A COUNTRY</h5>
 
-            <button className='w-3/4 bg-sky-800 py-4 mx-4 mb-2 rounded-lg shadow-lg'>KENYA</button>
-            <button className='w-3/4 bg-sky-800 py-4 mx-4 rounded-lg shadow-lg'>UGANDA</button>
+            <button className='md:w-3/4 w-full bg-red-600 py-4 mx-4 mb-4 mt-10 rounded-lg shadow-lg font-bold text-2xl'>KENYA</button>
+            <button className='md:w-3/4 w-full bg-red-600 py-4 mx-4 rounded-lg shadow-lg font-bold text-2xl'>UGANDA</button>
         </div>
 
         

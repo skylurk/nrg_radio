@@ -15,7 +15,7 @@ const Cursor = () => {
 
             <div className="h-screen w-1/2 bg-black/60"></div>
             <div className="h-screen w-1/2 "></div>
-            <div className="flex flex-col justify-between items-center absolute h-[80vh] w-[35%] rounded-lg shadow-lg bg-black/60 text-white top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+            <div className="flex flex-col justify-between items-center absolute h-[80vh] md:w-[35%] w-[90%] rounded-lg shadow-lg bg-black/0 text-white top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 <div className=" flex flex-col justify-center items-center">
                     {/* <h3 className='text-4xl font-bold mb-5'>I ❤️ NRG.RADIO</h3> */}
                     <Image
@@ -29,9 +29,9 @@ const Cursor = () => {
                 </div>
 
                 <div className="flex flex-col justify-center items-center w-full">
-                    <h5 className='text-4xl font-extrabold mb-5'>SELECT A COUNTRY</h5>
-                    <button className='w-3/4 bg-sky-600 py-3 mx-4 mb-2 rounded-lg shadow-lg hover:cursor-defaultThree'>KENYA</button>
-                    <button className='w-3/4 bg-sky-600 py-3 mx-4 rounded-lg shadow-lg hover:cursor-defaultThree'>UGANDA</button>
+                    <h5 className='md:text-4xl text-2xl font-extrabold mb-5'>SELECT A COUNTRY</h5>
+                    <button className='md:w-3/4 w-full bg-red-600 text-2xl font-bold py-3 mx-4 mb-2 rounded-lg shadow-lg hover:cursor-defaultThree'>KENYA</button>
+                    <button className='md:w-3/4 w-full bg-red-600 text-2xl font-bold py-3 mx-4 rounded-lg shadow-lg hover:cursor-defaultThree'>UGANDA</button>
                 </div>
             </div>
             <div className="cursorFollow w-[10px] h-[10px] bg-[#DD0E34] rounded-full absolute
