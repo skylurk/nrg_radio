@@ -11,7 +11,7 @@ const Diag = () => {
     }
 
     return (
-        <div onMouseMove={cursorMotion} className=' h-screen bg-red-500 bg-imageFour w-full  p-1 bg-cover bg-center bg-no-repeat flex justify-center flex-col items-center'>
+        <div onMouseMove={cursorMotion} className=' overflow-hidden h-screen bg-imageFour w-full  p-1 bg-cover bg-center bg-no-repeat flex justify-center flex-col items-center'>
 
             <div className="fixed top-10 z-10 w-60 ">
                 <Image
