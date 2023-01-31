@@ -13,7 +13,7 @@ const Diag = () => {
     return (
         <div onMouseMove={cursorMotion} className=' overflow-hidden h-screen bg-imageFour w-full  p-1 bg-cover bg-center bg-no-repeat flex justify-center flex-col items-center'>
 
-            <div className="fixed top-10 z-10 w-60 ">
+            <div className="fixed top-4 z-10 w-32 left-4">
                 <Image
                     src={"/logo.png"}
                     height={15}
