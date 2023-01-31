@@ -2,9 +2,17 @@ import Image from 'next/image'
 import React from 'react'
 
 const Diag = () => {
+    const cursorMotion = () => {
+        const cursor = document.querySelector('.cursorFollow');
+        document.addEventListener('mousemove', e => {
+            cursor.setAttribute("style", "top: " + (e.pageY + 3) + "px; left: " + (e.pageX + 3) + "px;")
+        })
+    }
+
     return (
-        <div className='h-screen w-full  p-4 bg-imageFour bg-cover bg-center bg-no-repeat flex justify-center flex-col items-center gap-4'>
-            <div className=" w-full flex justify-center">
+        <div onMouseMove={cursorMotion} className=' h-screen bg-red-500 bg-imageFour w-full  p-1 bg-cover bg-center bg-no-repeat flex justify-center flex-col items-center'>
+
+            <div className="fixed top-10 z-10">
                 <Image
                     src={"/logo.png"}
                     height={15}
@@ -13,18 +21,17 @@ const Diag = () => {
                 />
             </div>
 
-            <div className="h-4/5 w-4/5 flex flex-row gap-4">
+            <div className="h-screen w-full flex flex-row gap-1">
                 <div className="w-1/2 h-full bg-black/50 flex justify-center items-end hover:bg-black/100 cursor-pointer
-                bg-imageSix bg-center bg-cover bg-no-repeat rounded-lg ">
-                    {/* <h4 className='font-bold text-4xl text-white'>PLAYING OUT OF KENYA</h4> */}
-                    {/* <h4 className='text-white font-bold animate-bounce'>UGANDA</h4> */}
+                bg-imageSix bg-center bg-cover bg-no-repeat hover:scale-95 transition-all  ">
+
                 </div>
                 <div className="w-1/2 h-full bg-black/50 flex justify-center items-end hover:bg-black/100 cursor-pointer
-                bg-imageFive bg-center bg-cover bg-no-repeat">
-                    {/* <h4 className='font-bold text-4xl text-white'>PLAYING OUT OF UGANDA</h4> */}
-                    {/* <h4 className='text-white font-bold animate-bounce'>KENYA</h4> */}
+                bg-imageFive bg-center bg-cover bg-no-repeat  hover:scale-95 transition-all">
                 </div>
             </div>
+            <div className="cursorFollow w-[10px] h-[10px] bg-[#DD0E34] rounded-full absolute
+        duration-300 ease-out"></div>
 
         </div>
     )
