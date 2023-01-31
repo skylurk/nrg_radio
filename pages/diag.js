@@ -26,13 +26,13 @@ const Diag = () => {
                 <div
                  onClick={() => window.open('https://ug.nrg.radio', '_blank')}
                  className="md:w-1/2 w-full h-full bg-black/50 flex justify-center items-end hover:bg-black/100 cursor-pointer
-                bg-imageSix bg-center bg-cover bg-no-repeat hover:scale-95 transition-all  ">
+                bg-imageSix bg-center bg-cover bg-no-repeat hover:opacity-95 transition-all  ">
 
                 </div>
                 <div 
                  onClick={() => window.open('https://ke.nrg.radio', '_blank')}
                 className="w-full md:w-1/2 h-full bg-black/50 flex justify-center items-end hover:bg-black/100 cursor-pointer
-                bg-imageFive bg-center bg-cover bg-no-repeat  hover:scale-95 transition-all">
+                bg-imageFive bg-center bg-cover bg-no-repeat  hover:opacity-95 transition-all">
                 </div>
             </div>
             <div className="cursorFollow w-[10px] h-[10px] bg-[#ffffff] rounded-full absolute
