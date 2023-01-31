@@ -14,8 +14,8 @@ module.exports = {
         'imageTwo' : "url('/splitT.jpg')",
         'imageThree' : "url('/webby.png')",
         'imageFour' : "url('/imagey.png')",
-        'imageFive' : "url('/cutKenya.png')",
-        'imageSix' : "url('/cutUganda.png')",
+        'imageFive' : "url('/cutKenya.gif')",
+        'imageSix' : "url('/cutUganda.gif')",
       }),
       cursor: {
         default: 'url(/cursor.png), default',
