@@ -27,7 +27,7 @@ const Diag = () => {
                  onClick={() => window.open('https://mvp.nrg.radio/region/uganda', '_blank')}
                  className="md:w-1/2 w-full h-full relative bg-black/50 flex justify-center items-end hover:bg-black/100 cursor-pointer
                 bg-imageSix bg-center bg-cover bg-no-repeat hover:opacity-95 transition-all  ">
-                    <h2 className='text-white font-bold absolute z-20 right-0 bottom-0'>Navigate to Uganda</h2>
+                    {/* <h2 className='text-white font-bold absolute z-20 right-0 bottom-0'>Navigate to Uganda</h2> */}
                 </div>
                 <div 
                  onClick={() => window.open('https://ke.nrg.radio', '_blank')}
