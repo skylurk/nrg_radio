@@ -24,7 +24,7 @@ const Diag = () => {
 
             <div className="h-screen w-full flex flex-col md:flex-row gap-1">
                 <div
-                 onClick={() => window.open('https://ug.nrg.radio/region/uganda', '_blank')}
+                 onClick={() => window.open('https://ug.nrg.radio', '_blank')}
                  className="md:w-1/2 w-full h-full relative bg-black/50 flex justify-center items-end hover:bg-black/100 cursor-pointer
                 bg-imageSix bg-center bg-cover bg-no-repeat hover:opacity-95 transition-all  ">
                     {/* <h2 className='text-white font-bold absolute z-20 right-0 bottom-0'>Navigate to Uganda</h2> */}
