@@ -11,7 +11,7 @@ const Diag = () => {
     }
 
     return (
-        <div onMouseMove={cursorMotion} className=' overflow-hidden h-screen bg-imageFour w-full  p-1 bg-cover bg-center bg-no-repeat flex justify-center flex-col items-center'>
+        <div onMouseMove={cursorMotion} className=' overflow-hidden h-screen bg-black w-full  p-1 bg-cover bg-center bg-no-repeat flex justify-center flex-col items-center'>
 
             <div className="fixed top-4 z-10 w-32 left-4">
                 <Image
@@ -25,13 +25,14 @@ const Diag = () => {
             <div className="h-screen w-full flex flex-col md:flex-row gap-1">
                 <div
                  onClick={() => window.open('https://ug.nrg.radio', '_blank')}
-                 className="md:w-1/2 w-full h-full relative bg-black/50 flex justify-center items-end hover:bg-black/100 cursor-pointer
+                 className="md:w-1/2 w-full h-full relative bg-black/50 flex transform  duration-75 ease-in-out
+                  justify-center items-end hover:bg-black/100 hover:scale-95 cursor-pointer
                 bg-imageSix bg-center bg-cover bg-no-repeat hover:opacity-95 transition-all  ">
                     {/* <h2 className='text-white font-bold absolute z-20 right-0 bottom-0'>Navigate to Uganda</h2> */}
                 </div>
                 <div 
                  onClick={() => window.open('https://ke.nrg.radio', '_blank')}
-                className="w-full md:w-1/2 h-full bg-black/50 flex justify-center items-end hover:bg-black/100 cursor-pointer
+                className="w-full md:w-1/2 h-full bg-black/50 flex justify-center items-end hover:scale-95 hover:bg-black/100 cursor-pointer
                 bg-imageFive bg-center bg-cover bg-no-repeat  hover:opacity-95 transition-all">
                 </div>
             </div>
